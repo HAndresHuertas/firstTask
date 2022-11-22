@@ -29,6 +29,10 @@ function App() {
     backgroundColor: color
   }
 
+  const colorObject = {
+    color: color
+  }
+
   return (
     <div className="App" style={backgroundObject}>
       <h1>Famous phrase of the day</h1>
@@ -36,6 +40,7 @@ function App() {
         quote={quote}
         getNewValues={getNewValues}
         backgroundObject={backgroundObject}
+        colorObject={colorObject}
       />
 
     </div>
